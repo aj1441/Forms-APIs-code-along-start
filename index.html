@@ -1,7 +1,21 @@
-<form id="nasa-form" aria-label="NASA APOD Form">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms+APIs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<form id="nasa-form" aria-label="NASA APOD Form">
 	<label for="date">Choose a date:</label>
 	<input type="date" id="date" name="date" required aria-label="Date input" />
 	<button type="submit">Get Photo</button>
+	
 </form>
 
 <section id="result" aria-live="polite"></section>
+<script src="script.js"></script>
+</body>
+</html>
+
